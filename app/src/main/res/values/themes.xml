@@ -1,9 +1,30 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.Jetpack01" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+<!--    <style name="Base.Theme.Jetpack01" parent="Theme.Material3.DayNight.NoActionBar">
+        &lt;!&ndash; Customize your light theme here. &ndash;&gt;
+        &lt;!&ndash; <item name="colorPrimary">@color/my_light_primary</item> &ndash;&gt;
+    </style>-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
     </style>
 
     <style name="Theme.Jetpack01" parent="Base.Theme.Jetpack01" />
+
+    <!-- This is a style -->
+    <style name="MyButtonStyle">
+        <item name="android:background">#FFA07A</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <!-- This is a theme -->
+    <style name="MyTheme">
+        <item name="android:buttonStyle">@style/MyButtonStyle</item>
+    </style>
+
+
+
+
+
 </resources>

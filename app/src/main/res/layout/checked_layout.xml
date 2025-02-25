@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
 
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:padding="16dp"
+    android:orientation="vertical"
 
+    android:padding="80dp"
     tools:context=".MainActivity">
     <!--
         <TextView
@@ -29,14 +29,16 @@
         android:id="@+id/switchElement"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Dark mode"
-        android:checked="true"/>
+        android:checked="true"
+        android:text="Dark mode" />
+
     <ToggleButton
         android:id="@+id/toggleButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textOff="Toggle is Off"
         android:textOn="Toggle is On" />
+
     <RadioGroup
         android:id="@+id/radioGroup"
         android:layout_width="wrap_content"
@@ -60,5 +62,12 @@
             android:layout_height="wrap_content"
             android:text="Choice C" />
     </RadioGroup>
+
+    <TextView
+        style="@style/MyTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:text="I am styled!" />
 
 </LinearLayout>
