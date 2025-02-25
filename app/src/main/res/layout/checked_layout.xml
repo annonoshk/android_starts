@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+
+    tools:context=".MainActivity">
+    <!--
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose your extras:" />
+       <CheckBox
+            android:id="@+id/checkBoxFries"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fries"
+            android:checked="false" />
+        <CheckBox
+            android:id="@+id/checkBoxSalad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salad"
+            android:checked="false" />-->
+    <Switch
+        android:id="@+id/switchElement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dark mode"
+        android:checked="true"/>
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="Toggle is Off"
+        android:textOn="Toggle is On" />
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choice A" />
+
+        <RadioButton
+            android:id="@+id/radioB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choice B" />
+
+        <RadioButton
+            android:id="@+id/radioC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choice C" />
+    </RadioGroup>
+
+</LinearLayout>
